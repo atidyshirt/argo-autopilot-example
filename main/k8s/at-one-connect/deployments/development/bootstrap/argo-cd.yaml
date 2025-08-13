@@ -18,7 +18,7 @@ spec:
     kind: Application
   project: default
   source:
-    path: main/k8s/at-one-connect/deployments/development/bootstrap/argo-cd
+    path: k8s/at-one-connect/deployments/development/bootstrap/argo-cd
     repoURL: https://github.com/atidyshirt/argo-autopilot-example.git
   syncPolicy:
     automated:

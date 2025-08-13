@@ -3,7 +3,7 @@
   "userGivenName": "at-one-connect/my-http-server",
   "destNamespace": "default",
   "destServer": "https://kubernetes.default.svc",
-  "srcPath": "main/k8s/at-one-connect/deployments/development",
+  "srcPath": "k8s/at-one-connect/deployments/development",
   "srcRepoURL": "https://github.com/atidyshirt/argo-autopilot-example.git",
   "srcTargetRevision": "",
   "labels": null,

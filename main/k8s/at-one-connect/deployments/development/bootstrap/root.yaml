@@ -20,7 +20,7 @@ spec:
     kind: Application
   project: default
   source:
-    path: main/k8s/at-one-connect/deployments/development/projects
+    path: k8s/at-one-connect/deployments/development/projects
     repoURL: https://github.com/atidyshirt/argo-autopilot-example.git
   syncPolicy:
     automated:
