@@ -1,0 +1,13 @@
+{
+  "appName": "at-one-connect-production",
+  "userGivenName": "at-one-connect-production",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "main/k8s/at-one-connect/deployments/development",
+  "srcRepoURL": "https://github.com/atidyshirt/argo-autopilot-example.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null,
+  "exclude": "",
+  "include": ""
+}
