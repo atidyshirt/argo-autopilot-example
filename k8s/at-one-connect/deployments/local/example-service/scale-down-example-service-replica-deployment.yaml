@@ -1,0 +1,9 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: example-service
+spec:
+  selector:
+    matchLabels:
+      app: example-service
+  replicas: 1

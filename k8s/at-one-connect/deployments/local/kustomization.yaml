@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - ../../base/example-service
+
+patches:
+  - path: example-service/scale-down-example-service-replica-deployment.yaml
+    target:
+      kind: Deployment
+      name: example-service
+  - path: example-service/nodeport-example-service.yaml
+    target:
+      kind: Service
+      name: example-service

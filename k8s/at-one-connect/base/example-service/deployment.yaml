@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: example-service
+  labels:
+    app: example-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: example-service
+  template:
+    metadata:
+      labels:
+        app: example-service
+    spec:
+      containers:
+      - name: example-service
+        image: docker.atlnz.lc/gui/cloud/example-service:8d4e1218fab462f32e2687b6d23c634e8e98140c
+        ports:
+        - containerPort: 3000
